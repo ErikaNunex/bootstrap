@@ -1,0 +1,57 @@
+html, body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #dfdfdf;
+    height: 100%;
+}
+
+button. material-icons{
+    vartical-align: bottom;
+}
+
+.navbar{
+    height:100px;
+    background-color:#333333;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.navbar .logo{
+    font-size:1.8rem;
+    margin-left:20px;
+    font-family: 'Bungee Spice', cursive;
+}
+
+.menu li{
+    display:inline;
+    margin-right:10px;
+}
+.menu a , .navbar .logo{
+    text-decoration:none;
+    color:#ffffff;
+
+}
+.menu a:hover{
+    color:#999999;
+    text-decoration: underline;
+}
+
+.menu-mobile{
+    display:none;
+}
+
+.tabela1{
+    border: 1px solid black;
+    width:100%;
+
+}
+@media screen and (max-width:500px){
+    .menu{
+        display:none;
+    
+    }
+    .menu-mobile{
+        display:block; 
+    }
+}
